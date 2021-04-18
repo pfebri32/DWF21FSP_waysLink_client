@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://localhost:5001/api/v2',
+  baseURL: 'https://wayslink-api.herokuapp.com/api/v2',
 });
 
 export const setAuthToken = (token) => {
